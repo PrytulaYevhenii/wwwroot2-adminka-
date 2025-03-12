@@ -1,0 +1,243 @@
+{
+  "Webres": [
+    {
+      "header": "Робочі системи.Локація А",
+      "files": [
+        {
+          "description": "АС \"Є-Казна\" (820172)",
+          "url": "https://ekazna-vyd.dksu.gov.ua/barsroot/barsweb/loginpage.aspx",
+          "label": "https:/ekazna-vyd.dksu.gov.ua"
+        },
+        {
+          "description": "АС \"Є-Казна Доходи\" (899998)",
+          "url": "https://ekazna-doh.dksu.gov.ua/barsroot/barsweb/loginpage.aspx",
+          "label": "https:/ekazna-doh.dksu.gov.ua"
+        }
+      ]
+    },
+    {
+      "header": "Робочі системи.Локація Б",
+      "files": [
+        {
+          "description": "АС \"Є-Казна\" (820172)",
+          "url": "https://ekazna-vyd-b.dksu.gov.ua/barsroot/barsweb/loginpage.aspx",
+          "label": "https://ekazna-vyd-b.dksu.gov.ua"
+        },
+        {
+          "description": "АС \"Є-Казна Доходи\" (899998)",
+          "url": "https://ekazna-doh-b.dksu.gov.ua/barsroot/barsweb/loginpage.aspx",
+          "label": "https://ekazna-doh-b.dksu.gov.ua"
+        },
+        {
+          "description": "Підсистема Єдина мережа/Єдиний реєстр",
+          "url": "https://srv2800corpw/ibank/login.aspx?lang=UK",
+          "label": "Підсистема Єдина мережа/Єдиний реєстр"
+        },
+        {
+          "description": "Сховища даних Є-Звіт",
+          "url": "https://10.6.8.170/barsapp/Account/Login?ReturnUrl=%2fbarsapp%2f",
+          "label": "Сховище даних Є-Звіт"
+        },
+        {
+          "description": "Електронна звітність клієнтів",
+          "url": "https://10.6.8.156/barsapp/",
+          "label": "АС Є-Звітність"
+        },
+        {
+          "description": "Система електронного документообігу",
+          "url": "https://10.6.8.151/askod/",
+          "label": "АСКОД"
+        },
+        {
+          "description": "Підсистема сховища даних",
+          "url": "https://10.6.8.86/index.php",
+          "label": "Схрон"
+        },
+        {
+          "description": "Система дистанційного обслуговування клієнтів",
+          "url": "https://10.6.8.146/sdo/",
+          "label": "СДО"
+        }
+      ]
+    },
+    {
+      "header": "Системи минулих років",
+      "files": [
+        {
+          "description": "Є-КАЗНА Видатки (до 2020 року)",
+          "url": "https://10.6.8.248/barsroot/barsweb/loginpage.aspx",
+          "label": "Є-КАЗНА Видатки до 2020 року"
+        },
+        {
+          "description": "Є-КАЗНА Доходи (до 2020 року)",
+          "url": "https://10.6.8.191/barsroot/barsweb/loginpage.aspx",
+          "label": "Є-КАЗНА Доходи до 2020 року"
+        },
+        {
+          "description": "Сховище даних Є-Звіт (до 2020 року)",
+          "url": "https://10.6.8.208/barsapp/Account/Login?ReturnUrl=%2fbarsapp%2f",
+          "label": "Сховище даних Є-Звіт до 2020 року"
+        }
+      ]
+    },
+    {
+      "header": "Тестові системи",
+      "files": [
+        {
+          "description": "Тестовий майданчик Є-КАЗНА Видатки",
+          "url": "https://10.6.8.225/barsroot/barsweb/loginpage.aspx",
+          "label": "Тестова система Є-КАЗНА Видатки"
+        },
+        {
+          "description": "Тестовий майданчик Є-КАЗНА Доходи",
+          "url": "https://10.6.8.237/barsroot/barsweb/loginpage.aspx",
+          "label": "Тестова система Є-КАЗНА Доходи"
+        },
+        {
+          "description": "Тестовий майданчик ЄР/ЄМ",
+          "url": "http://10.6.8.209/ibank/login.aspx?lang=UK",
+          "label": "Тестовий система АС Є-Казна \"Підсистема ЄР/ЄМ\""
+        },
+        {
+          "description": "Тестовий майданчик ПТК \"Клієнт казначейства - Казначейство\" СДО",
+          "url": "https://10.6.8.148/sdo/Account/Login?ReturnUrl=%2fsdo%2f?lang=UK",
+          "label": "ПТК \"Клієнт казначейства - Казначейство\" СДО"
+        },
+        {
+          "description": "Електронна звітність клієнтів",
+          "url": "https://10.6.8.228/barsapp/",
+          "label": "Тестова система  АС \"Є-Звітність\""
+        }
+      ]
+    },
+    {
+      "header": "Інше",
+      "files": [
+        {
+          "description": "Електронна пошта",
+          "url": "https://mail.dksu.gov.ua/owa/",
+          "label": "https://mail.dksu.gov.ua"
+        }
+      ]
+    }
+  ],
+  "Instruct": [
+    {
+      "header": "АС \"Є-Казна\"",
+      "files": [
+        {
+          "description": "Інструкція користувача автоматизованої системи обліку казначейського виконання бюджетів АС \"Є-Казна\"",
+          "url": "/Files/EKAZNA.pdf",
+          "label": "Інструкція АС \"Є-Казна\""
+        }
+      ]
+    },
+    {
+      "header": "СЕД АСКОД",
+      "files": [
+        {
+          "description": "Інструкція користувача СЕД АСКОД Створення проекту вихідного документа вiд 2019.03.01",
+          "url": "/Files/1_ACrEx.7z",
+          "label": "2019.03.01 Створення проекту вихідного документа"
+        },
+        {
+          "description": "Інструкція користувача СЕД АСКОД Створення проекту внутрішнього документа вiд 2019.03.01",
+          "url": "/Files/2_ACrIn.7z",
+          "label": "2019.03.01 Створення проекту внутрішнього документа"
+        },
+        {
+          "description": "Інструкція користувача СЕД АСКОД Рольова інструкція_Створення РК вiд 2019.05.03",
+          "url": "/Files/3_ACrRk.7z",
+          "label": "Рольова інструкція_Створення РК"
+        },
+        {
+          "description": "Інструкція користувача СЕД АСКОД Підготовка Реєстрація вхідного документа діловодом вiд 2019.03.11",
+          "url": "/Files/4_ACrNIn.7z",
+          "label": "2019.03.11 Підготовка Реєстрація вхідного документа діловодом"
+        },
+        {
+          "description": "Інструкція користувача СЕД АСКОД Інструкція прийому документів засобами СЕВ ОВВ вiд 2019.11.21",
+          "url": "/Files/5_AInSev.7z",
+          "label": "2019.11.21 Інструкція прийому документів засобами СЕВ ОВВ"
+        },
+        {
+          "description": "Інструкція користувача СЕД АСКОД Додавання шаблону бланків для підрозділу вiд 2019.11.28",
+          "url": "/Files/6_ABlnk.7z",
+          "label": "2019.11.28 Додавання шаблону бланків для підрозділу"
+        },
+        {
+          "description": "Інструкція користувача СЕД АСКОД Налаштування Аскоду від 2019.05.31",
+          "url": "/Files/7_ASetUp.7z",
+          "label": "2019.05.31 Налаштування Аскоду"
+        }
+      ]
+    },
+    {
+      "header": "ER EM",
+      "files": [
+        {
+          "description": "Інструкція користувача ER EM",
+          "url": "/Files/1_ErEm.7z",
+          "label": "Керiвництво користувача"
+        }
+      ]
+    },
+    {
+      "header": "KADRY",
+      "files": [
+        {
+          "description": "Інструкція Адміністраторa системи KADRY",
+          "url": "/Files/1_KadrA.7z",
+          "label": "Адміністратор системи KADRY"
+        }
+      ]
+    },
+    {
+      "header": "E-Zvit",
+      "files": [
+        {
+          "description": "Інструкція Адміністраторa системи E-Zvit",
+          "url": "/Files/1_EzvtAdm.7z",
+          "label": "Документація адміністратора_v1.4"
+        },
+        {
+          "description": "Інструкція користувача системи E-Zvit",
+          "url": "/Files/2_EzvtUsr.7z",
+          "label": "Документація користувача_full_v1.20"
+        }
+      ]
+    },
+    {
+      "header": "Телефонний довідник",
+      "files": [
+        {
+          "description": "Телефонний довідник вiд 2024.11.07",
+          "url": "/Files/ДОВІДНИК ТЕЛЕФОНІВ.zip",
+          "label": "Телефонний довідник"
+        }
+      ]
+    }
+  ],
+  "Blanks": [
+    {
+      "header": "Форми заявок",
+      "files": [
+        {
+          "description": "Додатки до наказу ДКСУ від 20.02.2012 №63",
+          "url": "./Files/dostup.xls",
+          "label": "Форми заявок на доступ-блокування до IP ITC (Казна)"
+        },
+        {
+          "description": "Додатки до наказу ДКСУ від 20.02.2012 №63",
+          "url": "./Files/dostupr.xls",
+          "label": "Форми заявок на доступ-блокування до IP ITC (Інше)"
+        },
+        {
+          "description": "Додатки до наказу ДКСУ від 20.02.2012 №63",
+          "url": "",
+          "label": "Форми заявок на доступ-блокування адміністраторам"
+        }
+      ]
+    }
+  ]
+}

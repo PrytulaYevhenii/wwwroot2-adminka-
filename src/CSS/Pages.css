@@ -1,0 +1,192 @@
+/* Основные переменные для тем */
+:root {
+    --table-border-color: #236c3d;
+    --table-header-bg-color: #236c3d;
+    --table-header-text-color: white;
+    --table-row-odd-bg-color: #f2f2f2;
+    --table-cell-text-color: #333;
+    --table-cell-bg-color: white;
+    --to-top-bg-color: #236c3d;
+    --to-top-hover-bg-color: #1e6a30;
+    --up-arrow-color: white;
+    --link-color: #1e90ff;
+    --link-hover-color: #044e99;
+    --icon-color: #236c3d;
+}
+
+/* Темная тема */
+:root.dark-theme {
+    --table-border-color: #2c2b2b;
+    --table-header-bg-color: #1e1e1e;
+    --table-header-text-color: #f0f0f0;
+    --table-row-odd-bg-color: #1e1e1e;
+    --table-cell-text-color: white;
+    --table-cell-bg-color: #2a2a2a;
+    --to-top-bg-color: #1e1e1e;
+    --to-top-hover-bg-color: #2a2a2a;
+    --up-arrow-color: #f0f0f0;
+    --link-color: #B0B0B0;
+    --link-hover-color: white;
+    --icon-color: #ffffff;
+}
+
+/* Общие стили */
+.tableContainer {
+    margin: 5px 0;
+    min-width: 1000px;
+}
+
+.table {
+    border: 2px solid var(--table-border-color);
+    width: 100%;
+}
+
+.tableHeader {
+    background-color: var(--table-header-bg-color);
+    font-weight: 300;
+    color: var(--table-header-text-color) !important;
+    font-size: 22px !important;
+    text-align: center !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+}
+
+.tableRow:nth-of-type(odd) {
+    background-color: var(--table-row-odd-bg-color);
+}
+
+.tableCell {
+    padding: 5px 15px !important;
+    border: 2px solid var(--table-border-color);
+    overflow-wrap: break-word;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    font-size: 18px !important;
+    color: var(--table-cell-text-color);
+    background-color: var(--table-cell-bg-color);
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.save-icon {
+    fill: var(--icon-color);
+    transition: fill 0.3s ease; /* Плавное изменение цвета */
+  }
+  
+
+.save-icon:hover {
+    animation: pulse 1s infinite;
+}
+
+.linkContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.linkContainer .link svg {
+    vertical-align: middle;
+}
+
+.link {
+    color: var(--link-color);
+    text-decoration: none;
+    margin-right: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.to-top-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px 20px;
+    background-color: var(--to-top-bg-color);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.3s;
+    z-index: 1000;
+}
+
+.to-top-link:hover {
+    background-color: var(--to-top-hover-bg-color);
+    transform: translateY(-5px);
+}
+
+.up-arrow {
+    width: 40px;
+    height: 40px;
+    fill: var(--up-arrow-color);
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+  }
+
+  .tickets-container {
+    padding: 20px;
+  }
+  
+  .ticket-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .ticket-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .ticket {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .ticket button {
+    margin-right: 10px;
+  }
+  
+  
+
