@@ -20,7 +20,7 @@ const Tickets = () => {
 
   return (
     <div className="tickets-container">
-      <h1>Система заявок на техобслуживание</h1>
+      <h1>Система заявок на техобслуживание111111111</h1>
       <div className="ticket-form">
         <input
           type="text"
